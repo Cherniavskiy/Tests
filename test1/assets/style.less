@@ -1,0 +1,190 @@
+body {
+  width: 1920px;
+  height: 100%;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+}
+header {
+  height: 80px;
+  background: #ffffffb8;
+  display: flex;
+  position: absolute;
+  width: 1920px;
+  flex-direction: row;
+  justify-content: center;
+  color: #525252;
+  font-size: 15px;
+  align-items: center;
+  .menu {
+    display: flex;
+    width: 981px;
+    justify-content: flex-end;
+    div {
+      margin-left: 40px;
+    }
+    div:nth-of-type(1) {
+      color: red;
+    }
+  }
+}
+.title {
+  background-image: url(images/title-block.png);
+  display: block;
+  height: 737px;
+  font-size: 42px;
+  color: white;
+  div {
+    text-align: center;
+    padding-top: 328px;
+    margin: 0 auto;
+  }
+}
+.title:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid white;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+.block1 {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 80px;
+  line-height: 35px;
+}
+.block2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 130px;
+  font-size: 15px;
+  line-height: 28px;
+  .garanty, .economy, .delivery, .reputation {
+    width: 350px;
+  }
+  .garanty div:nth-of-type(1) {
+    background:url("images/garanty.png") no-repeat;
+  }
+  .economy div:nth-of-type(1) {
+    background:url("images/economy.png") no-repeat;
+  }
+  .delivery div:nth-of-type(1) {
+    background:url("images/delivery.png") no-repeat;
+  }
+  .reputation div:nth-of-type(1) {
+    background:url("images/reputation.png") no-repeat;
+  }
+  .icon {
+    width: 51px;
+    height: 51px;
+    margin: 0 auto;
+  }
+}
+.block3 {
+  background-color: #c9c9c9;
+  justify-content: center;
+  text-align: center;
+  margin-top: 70px;
+  padding-top: 70px;
+  font-size: 15px;
+  line-height: 28px;
+  div:nth-of-type(2) {
+    margin-bottom: 15px;
+  }
+  .menuCatalog {
+    display: flex;
+    justify-content: center;
+    div {
+      margin: 17px;
+      padding: 5px;
+    }
+    div:nth-of-type(1) {
+      background-color: red;
+      color: white;
+    }
+  }
+}
+.clockCatalog {
+  display: flex;
+  justify-content: center;
+  padding-top: 35px;
+  color: red;
+  .clock1, .clock2, .clock3, .clock4 {
+    width: 263px;
+    margin: 30px;
+    height: 370px;
+    background-color: white;
+  }
+  .clock{
+    height: 181px;
+    padding-bottom: 15px;
+  }
+  .clock1 div:nth-of-type(1) {
+    background: url("images/clock4.png") no-repeat;
+  }
+  .clock2 div:nth-of-type(1) {
+    background: url("images/clock3.png") no-repeat;
+  }
+  .clock3 div:nth-of-type(1) {
+    background: url("images/clock2.png") no-repeat;
+  }
+  .clock4 div:nth-of-type(1) {
+    background: url("images/clock1.png") no-repeat;
+  }
+}
+.buttonRed {
+  height: 26px;
+  width: 166px;
+  border-radius: 22px;
+  border: 1px solid red;
+  margin: 0 auto;
+  color: red;
+  font-size: 13px;
+  text-align: center;
+  padding-top: 10px;
+}
+.allclock {
+  padding: 60px;
+  div {
+    margin: 17px auto;
+    padding: 5px;
+  }
+}
+footer {
+  height: 560px;
+}
+.fontBigRed {
+  color: red;
+  font-size: 30px;
+  margin-bottom: 26px;
+}
+.fontMediumRed {
+  color: red;
+  font-size: 18px;
+  padding: 7px;
+}
+.blackText {
+  color: black;
+}
+footer {
+  display: flex;
+  .contact {
+    width: 780px;
+    color: gray;
+  }
+  .map {
+    width: 1140px;
+    height: 563px;
+    background: url("images/map.png") no-repeat;
+  }
+  div {
+    padding-left: 170px;
+  }
+  div:nth-of-type(1) {
+    padding-top: 80px;
+  }
+}
